@@ -1,0 +1,7 @@
+host: '10.237.56.85'
+port: 8848
+namespace: 'efd3d732-8be4-4595-862c-881cbf65676e'
+user: 'nacos'
+password: 'nacos'
+dataid: 'inventory'
+group: 'dev'

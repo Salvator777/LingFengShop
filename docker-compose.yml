@@ -1,0 +1,19 @@
+services:
+  mysql:
+    container_name: LingFengMySQL
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 243326
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+
+  redis:
+    container_name: LFshopRedis
+    image: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./data/redis:/data
+

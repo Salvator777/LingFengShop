@@ -1,0 +1,22 @@
+{
+    "name": "order-srv",
+    "tags":["LFshop", "sp", "order", "srv"],
+    "host":"10.237.56.85",
+    "mysql": {
+        "dbname": "LFshop_order_srv",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "243326"
+    },
+    "consul": {
+        "host": "127.0.0.1",
+        "port": 8500
+    },
+    "goods_srv": {
+        "name": "goods-srv"
+    },
+    "inventory_srv": {
+        "name": "inventory-srv"
+    }
+}
